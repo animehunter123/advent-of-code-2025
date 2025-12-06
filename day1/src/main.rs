@@ -27,9 +27,10 @@ fn main() -> io::Result<()> {
     for line_result in reader.lines() {
         let line = line_result?; // Handle potential errors during line reading
         // println!("{}", line); // Process or print each line
-        // if line.as_bytes()[0] == b'L'  {
-            // println!("FOUND A L!!")
-        // }
+        if line.len() > 0 {
+        if line.as_bytes()[0] == b'L'  {
+            println!("FOUND A L!!")
+        }}
 
     }
 
