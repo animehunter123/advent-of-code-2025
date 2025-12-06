@@ -3,7 +3,6 @@ use std::io::{self, BufRead, BufReader};
 use std::path::Path;
 
 fn main() -> io::Result<()> {
-
     // make a 100 number array?
     let mut combo: Vec<u8> = Vec::new();
     for i in 0..100 {
@@ -28,12 +27,14 @@ fn main() -> io::Result<()> {
         let line = line_result?; // Handle potential errors during line reading
         // println!("{}", line); // Process or print each line
         if line.len() > 0 {
-        if line.as_bytes()[0] == b'L'  {
-            println!("FOUND A L!!")
-        }}
-
+            if line.as_bytes()[0] == b'L' {
+                println!("FOUND A L!!")
+            }
+        }
+        else {
+            todo!("do the same for R")   
+        }
     }
 
     Ok(())
 }
-
