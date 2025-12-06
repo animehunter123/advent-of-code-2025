@@ -2,6 +2,7 @@ Advent of Code[About][Events][Shop][Settings][Log Out]animehunter123
    0x0000|2025[Calendar][AoC++][Sponsors][Leaderboards][Stats]
 Our sponsors help make Advent of Code possible:
 NatWest Group - With over 15,000 technologists we're helping colleagues to achieve more for our customers, through brilliant software engineering
+
 --- Day 1: Secret Entrance ---
 The Elves have good news and bad news.
 
